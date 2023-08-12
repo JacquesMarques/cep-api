@@ -34,7 +34,7 @@ gem "bootsnap", require: false
 # gem "image_processing", "~> 1.2"
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-# gem "rack-cors"
+gem "rack-cors"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -72,7 +72,6 @@ group :test do
   gem 'webmock', '~> 3.18', '>= 3.18.1'
 end
 
-
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 gem 'rack-cors', '~> 2.0', '>= 2.0.1', :require => 'rack/cors'
 
@@ -81,3 +80,6 @@ gem 'oj', '~> 3.14', '>= 3.14.2'
 
 # Kaminari is a Scope & Engine based, clean, powerful, agnostic, customizable and sophisticated paginator
 gem 'kaminari', '~> 1.2', '>= 1.2.2'
+
+# Makes http fun! Also, makes consuming restful web services dead easy.
+gem 'httparty', '~> 0.21.0'
