@@ -58,7 +58,6 @@ group :development do
   # gem "spring"
 end
 
-
 group :test do
   # Strategies for cleaning databases. Can be used to ensure a clean slate for testing.
   gem 'database_cleaner', '~> 2.0', '>= 2.0.2'
