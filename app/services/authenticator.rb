@@ -9,7 +9,7 @@ class Authenticator
   end
 
   def credentials
-    @credentials ||= @authorization.tr('-', '').scan(/(\w+)[:=] ?"?([\w|:]+)"?/).to_h
+    @credentials ||= Hash[@authorization.scan(/(\w+)[:=] ?"?([\w|:]+)"?/)]
   end
 
   def api_key

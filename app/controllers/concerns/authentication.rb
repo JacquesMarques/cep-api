@@ -50,6 +50,10 @@ module Authentication
     end.call
   end
 
+  def access_token
+    @access_token ||= authenticator.access_token
+  end
+
   def current_user
     @current_user ||= access_token.try(:user)
   end
