@@ -78,3 +78,6 @@ gem 'rack-cors', '~> 2.0', '>= 2.0.1', :require => 'rack/cors'
 
 # The fastest JSON parser and object serializer.
 gem 'oj', '~> 3.14', '>= 3.14.2'
+
+# Kaminari is a Scope & Engine based, clean, powerful, agnostic, customizable and sophisticated paginator
+gem 'kaminari', '~> 1.2', '>= 1.2.2'
