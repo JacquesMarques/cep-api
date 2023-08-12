@@ -72,9 +72,6 @@ group :test do
   gem 'webmock', '~> 3.18', '>= 3.18.1'
 end
 
-# Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
-gem 'rack-cors', '~> 2.0', '>= 2.0.1', :require => 'rack/cors'
-
 # The fastest JSON parser and object serializer.
 gem 'oj', '~> 3.14', '>= 3.14.2'
 
