@@ -5,8 +5,8 @@ require 'rails_helper'
 RSpec.describe Filter do
 
   let(:first_user) { create(:user) }
-  let(:second_user) { create(:admin) }
-  let(:third_user) { create(:other_user) }
+  let(:second_user) { create(:user, given_name: 'Mary', role: :admin) }
+  let(:third_user) { create(:user, given_name: 'Peter', role: :user) }
   let(:users) { [first_user, second_user, third_user] }
 
   let(:scope) { User.all }
@@ -48,11 +48,11 @@ RSpec.describe Filter do
       end
     end
 
-    context 'with "given_name_notcont=Super"' do
-      let(:params) { { 'q' => { 'given_name_notcont' => 'Super' } } }
+    context 'with "given_name_notcont=John"' do
+      let(:params) { { 'q' => { 'given_name_notcont' => 'John' } } }
 
       it 'not gets "Super" back' do
-        expect(filtered.first.id).to eq first_user.id
+        expect(filtered.first.id).to eq second_user.id
         expect(filtered.size).to eq 2
       end
     end
@@ -66,7 +66,7 @@ RSpec.describe Filter do
     end
 
     context 'with "given_name_end=Other"' do
-      let(:params) { { 'q' => { 'given_name_end' => 'Other' } } }
+      let(:params) { { 'q' => { 'given_name_end' => 'Peter' } } }
 
       it 'gets only "User" back' do
         expect(filtered.first).to eq third_user

@@ -3,9 +3,9 @@
 require 'rails_helper'
 
 RSpec.describe 'EmbedPicker' do
-  let(:first_user) { create(:user) }
-  let(:second_user) { create(:admin) }
-  let(:third_user) { create(:other_user) }
+  let(:first_user) { create(:user, email: 'john@example.com') }
+  let(:second_user) { create(:user, role: :admin) }
+  let(:third_user) { create(:user) }
   let(:users) { [first_user, second_user, third_user] }
   let(:access_token) { create(:access_token, user: first_user) }
   let(:access_token_two) { create(:access_token, user: first_user) }
@@ -44,7 +44,6 @@ RSpec.describe 'EmbedPicker' do
           expect(embed_picker.embed.data[:user]).to eq({
                                                          'id' => first_user.id,
                                                          'email' => 'john@example.com',
-                                                         'uuid' => first_user.uuid,
                                                          'given_name' => 'John',
                                                          'family_name' => 'Doe',
                                                          'role' => 'user',

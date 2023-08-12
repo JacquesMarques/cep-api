@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'FieldPicker' do
-  let(:first_user) { create(:user) }
+  let(:first_user) { create(:user, email: 'john@example.com') }
 
   # We remove 'subname' here
   let(:params) { { fields: 'id,given_name' } }

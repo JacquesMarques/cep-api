@@ -5,8 +5,8 @@ require 'rails_helper'
 RSpec.describe Paginator do
 
   let(:first_user) { create(:user) }
-  let(:second_user) { create(:admin) }
-  let(:third_user) { create(:other_user) }
+  let(:second_user) { create(:user, given_name: 'Mary', role: :admin) }
+  let(:third_user) { create(:user, given_name: 'Peter', role: :user) }
   let(:users) { [first_user, second_user, third_user] }
 
   let(:scope) { User.all }
