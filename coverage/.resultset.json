@@ -1,6 +1,43 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/access_token.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          null,
+          null,
+          1,
+          4,
+          4,
+          4,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/api_key.rb": {
         "lines": [
           null,
@@ -19,15 +56,8 @@
           1,
           null,
           1,
-          2,
+          8,
           null,
-          null
-        ]
-      },
-      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/application_record.rb": {
-        "lines": [
-          1,
-          1,
           null
         ]
       },
@@ -82,17 +112,79 @@
           1,
           null,
           1,
-          7,
+          13,
           null,
           null,
           1,
-          7,
+          13,
           null,
           null
         ]
       },
       "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/controllers/application_controller.rb": {
         "lines": [
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/controllers/concerns/authentication.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
           0,
           0
         ],
@@ -121,8 +213,73 @@
         ],
         "branches": {
         }
+      },
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/services/application_service.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/services/authenticator.rb": {
+        "lines": [
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          null,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
       }
     },
-    "timestamp": 1691846889
+    "timestamp": 1691849377
   }
 }
