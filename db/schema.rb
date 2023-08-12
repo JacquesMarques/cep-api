@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_08_12_140432) do
+ActiveRecord::Schema[7.0].define(version: 2023_08_12_190232) do
   create_table "access_tokens", force: :cascade do |t|
     t.string "token_digest"
     t.integer "user_id", null: false
@@ -52,6 +52,19 @@ ActiveRecord::Schema[7.0].define(version: 2023_08_12_140432) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token"
   end
 
+  create_table "zip_accesses", force: :cascade do |t|
+    t.string "zipcode"
+    t.string "state"
+    t.string "city"
+    t.string "neighborhood"
+    t.string "street"
+    t.integer "user_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["user_id"], name: "index_zip_accesses_on_user_id"
+  end
+
   add_foreign_key "access_tokens", "api_keys"
   add_foreign_key "access_tokens", "users"
+  add_foreign_key "zip_accesses", "users"
 end

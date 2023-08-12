@@ -122,6 +122,15 @@
           null
         ]
       },
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/zip_access.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
       "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/query_builders/filter.rb": {
         "lines": [
           null,
@@ -1097,6 +1106,6 @@
         }
       }
     },
-    "timestamp": 1691866592
+    "timestamp": 1691867371
   }
 }

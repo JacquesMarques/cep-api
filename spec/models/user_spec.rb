@@ -9,6 +9,8 @@ RSpec.describe User, type: :model do
     expect(build(:user)).to be_valid
   end
 
+  it { should have_many(:access_tokens) }
+
   it { should validate_presence_of(:email) }
 
   describe 'validate uniqueness' do
