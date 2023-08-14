@@ -8,6 +8,8 @@ Esta aplicação é uma API de exemplo de solução para o desavio proposto pela
 * Rails 7.0.6
 * SQLite3 1.4
 
+## Instalação
+
 
 
 
