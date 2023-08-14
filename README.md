@@ -1,6 +1,6 @@
 # CEP API
 
-Esta aplicação é uma API de exemplo de solução para o desavio proposto pela Smart Software.
+Esta aplicação é uma API de exemplo de solução para o desavio proposto pela Smart Software foi feilta em Ruby on Rails.
 Ao invés fazer a serialização usando o padrão do Rails ou uma Gem, preferi fazer "na mão", para poder ter mais controler de como isso seria feito e melhoria nas funcionalidades que poderia disponibilizar.
 Todas os resultados serializados são cacheados por padrão e podem ser paginados.
 
