@@ -13,7 +13,7 @@ Todas os resultados serializados são cacheados por padrão e podem ser paginado
 ## Instalação
 
 ```
-git clone
+git clone git@github.com:JacquesMarques/cep-api.git
 cd cep-api
 docker-compose build
 ```
