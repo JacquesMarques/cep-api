@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 RSpec.shared_context 'Skip Auth' do
-  let(:admin_user) { create(:admin) }
+  let(:admin_user) { create(:user, role: :admin) }
   let(:api_key) { ApiKey.first || create(:api_key) }
   let(:access_token) { create(:access_token, user: admin_user) }
 
