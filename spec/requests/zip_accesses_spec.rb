@@ -44,16 +44,16 @@ RSpec.describe 'ZipAccesses', type: :request do
       }
     }
 
-    before do
-      stub_request(:get, "http://cep.la/#{first_zip.zipcode}")
-        .to_return(
-          status: 200,
-          body: resp.to_json
-        )
-      get "/api/v1/zip_accesses/#{first_zip.zipcode}"
-    end
-
     context 'with correct zip code' do
+      before do
+        stub_request(:get, "http://cep.la/#{first_zip.zipcode}")
+          .to_return(
+            status: 200,
+            body: resp.to_json
+          )
+        get "/api/v1/zip_accesses/#{first_zip.zipcode}"
+      end
+
       it 'returns http success' do
         expect(response).to have_http_status(:success)
       end

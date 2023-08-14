@@ -13,11 +13,12 @@ class ZipAccessesController < ApplicationController
     response = Rails.cache.fetch([url], expires: 2.days) do
       HTTParty.get(url, headers: { 'cache-control': 'no-cache', 'Accept': 'application/json' })
     end
-    if response.body.nil? || response.body.empty?
-      render json: { message: 'Zip not found' }, status: :not_found
-    else
+
+    if response.present?
       save_access(response)
       render json: response
+    else
+      render json: { message: 'Zip not found' }, status: :not_found
     end
   end
 

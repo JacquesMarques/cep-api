@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/app/app/models/access_token.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/access_token.rb": {
         "lines": [
           null,
           null,
@@ -31,14 +31,14 @@
           null
         ]
       },
-      "/app/app/models/application_record.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/application_record.rb": {
         "lines": [
           1,
           1,
           null
         ]
       },
-      "/app/app/models/api_key.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/api_key.rb": {
         "lines": [
           null,
           null,
@@ -61,7 +61,7 @@
           null
         ]
       },
-      "/app/app/models/user.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/user.rb": {
         "lines": [
           null,
           null,
@@ -122,7 +122,7 @@
           null
         ]
       },
-      "/app/app/models/zip_access.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/models/zip_access.rb": {
         "lines": [
           1,
           1,
@@ -131,7 +131,7 @@
           null
         ]
       },
-      "/app/app/query_builders/filter.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/query_builders/filter.rb": {
         "lines": [
           null,
           null,
@@ -218,7 +218,7 @@
           null
         ]
       },
-      "/app/app/query_builders/paginator.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/query_builders/paginator.rb": {
         "lines": [
           null,
           null,
@@ -304,7 +304,7 @@
           null
         ]
       },
-      "/app/app/query_builders/sorter.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/query_builders/sorter.rb": {
         "lines": [
           null,
           null,
@@ -340,7 +340,7 @@
           null
         ]
       },
-      "/app/app/presenters/user_presenter.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/presenters/user_presenter.rb": {
         "lines": [
           1,
           1,
@@ -356,7 +356,7 @@
           null
         ]
       },
-      "/app/app/presenters/base_presenter.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/presenters/base_presenter.rb": {
         "lines": [
           1,
           1,
@@ -438,7 +438,7 @@
           null
         ]
       },
-      "/app/app/errors/query_builder_error.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/errors/query_builder_error.rb": {
         "lines": [
           null,
           null,
@@ -452,7 +452,7 @@
           null
         ]
       },
-      "/app/app/presenters/access_token_presenter.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/presenters/access_token_presenter.rb": {
         "lines": [
           null,
           1,
@@ -470,7 +470,7 @@
           null
         ]
       },
-      "/app/app/representation_builders/embed_picker.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/representation_builders/embed_picker.rb": {
         "lines": [
           null,
           null,
@@ -537,7 +537,7 @@
           null
         ]
       },
-      "/app/app/errors/representation_builder_error.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/errors/representation_builder_error.rb": {
         "lines": [
           null,
           null,
@@ -551,7 +551,7 @@
           null
         ]
       },
-      "/app/app/representation_builders/field_picker.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/representation_builders/field_picker.rb": {
         "lines": [
           null,
           null,
@@ -607,7 +607,7 @@
           null
         ]
       },
-      "/app/app/controllers/access_tokens_controller.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/controllers/access_tokens_controller.rb": {
         "lines": [
           null,
           null,
@@ -650,7 +650,7 @@
           null
         ]
       },
-      "/app/app/controllers/application_controller.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/controllers/application_controller.rb": {
         "lines": [
           null,
           null,
@@ -708,7 +708,7 @@
           null
         ]
       },
-      "/app/app/controllers/concerns/authentication.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/controllers/concerns/authentication.rb": {
         "lines": [
           null,
           null,
@@ -772,7 +772,7 @@
           null
         ]
       },
-      "/app/app/services/authenticator.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/services/authenticator.rb": {
         "lines": [
           null,
           null,
@@ -821,7 +821,7 @@
           null
         ]
       },
-      "/app/app/serializers/api/serializer.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/serializers/api/serializer.rb": {
         "lines": [
           null,
           null,
@@ -867,7 +867,7 @@
           null
         ]
       },
-      "/app/app/serializers/api/entity_serializer.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/serializers/api/entity_serializer.rb": {
         "lines": [
           1,
           1,
@@ -902,7 +902,7 @@
           null
         ]
       },
-      "/app/app/controllers/zip_accesses_controller.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/controllers/zip_accesses_controller.rb": {
         "lines": [
           1,
           1,
@@ -919,11 +919,12 @@
           2,
           2,
           null,
-          2,
-          0,
           null,
           2,
           2,
+          2,
+          null,
+          0,
           null,
           null,
           null,
@@ -942,7 +943,7 @@
           null
         ]
       },
-      "/app/app/query_builders/query_orchestrator.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/query_builders/query_orchestrator.rb": {
         "lines": [
           null,
           null,
@@ -991,7 +992,7 @@
           null
         ]
       },
-      "/app/app/presenters/zip_access_presenter.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/presenters/zip_access_presenter.rb": {
         "lines": [
           1,
           1,
@@ -1004,7 +1005,7 @@
           null
         ]
       },
-      "/app/app/query_builders/eager_loader.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/query_builders/eager_loader.rb": {
         "lines": [
           null,
           null,
@@ -1041,7 +1042,7 @@
           null
         ]
       },
-      "/app/app/serializers/api/collection_serializer.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/serializers/api/collection_serializer.rb": {
         "lines": [
           1,
           1,
@@ -1099,7 +1100,7 @@
           null
         ]
       },
-      "/app/app/errors/invalid_builder_action_error.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/errors/invalid_builder_action_error.rb": {
         "lines": [
           null,
           null,
@@ -1114,7 +1115,7 @@
         ],
         "branches": {}
       },
-      "/app/app/jobs/application_job.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/jobs/application_job.rb": {
         "lines": [
           0,
           null,
@@ -1126,7 +1127,7 @@
         ],
         "branches": {}
       },
-      "/app/app/mailers/application_mailer.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/mailers/application_mailer.rb": {
         "lines": [
           0,
           0,
@@ -1135,7 +1136,7 @@
         ],
         "branches": {}
       },
-      "/app/app/services/application_service.rb": {
+      "/Users/jacquesmmarquesicloud.com/RubymineProjects/cep-api/app/services/application_service.rb": {
         "lines": [
           null,
           null,
@@ -1149,6 +1150,6 @@
         "branches": {}
       }
     },
-    "timestamp": 1692017227
+    "timestamp": 1692022745
   }
 }
